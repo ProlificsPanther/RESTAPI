@@ -1,5 +1,5 @@
 # RESTFUL-API
-This repository contains sample source  on how to make a RESTful POST & GET call from a Panther Web application
+This repository contains sample source  on how to make a RESTful POST & GET call from a Panther Web application. Data is returned to JSP in JSON format
 
 # Pre-Requisite:
   * Panther Servlet/Apache
@@ -15,6 +15,6 @@ This repository contains sample source  on how to make a RESTful POST & GET call
 # Demo.jsp
 JSP page containing html content for a pushbutton and the other files are a reference to this document.
 
-Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w
+Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of the demo.
 
 For further queries: support@prolifics.com
