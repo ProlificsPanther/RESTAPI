@@ -1,9 +1,9 @@
 # RESTFUL-API
-This repo is for the demo of integration of Get and Post with Panther
+This repository contains sample source  on how to make a RESTful POST & GET from a Panther Web application
 
 # Pre-Requisite:
   * Panther Servlet/Apache
-  * ini file for the app
+  * Panther Web ini file for thed application
 
 # Contents of the demo:
   * Demo.jsp
@@ -13,7 +13,7 @@ This repo is for the demo of integration of Get and Post with Panther
   * editabl.js
   
 # Demo.jsp
-This is the jsp page which has the html content for the button and the other files are a reference to this document.
+JSP page containing html content for a pushbutton and the other files are a reference to this document.
 
 Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w
 
