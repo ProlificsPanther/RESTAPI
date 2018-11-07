@@ -1,5 +1,5 @@
 # RESTFUL-API
-This repository contains sample source  on how to make a RESTful POST & GET from a Panther Web application
+This repository contains sample source  on how to make a RESTful POST & GET call from a Panther Web application
 
 # Pre-Requisite:
   * Panther Servlet/Apache
