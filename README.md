@@ -15,16 +15,16 @@ This repository contains sample source  on how to make a RESTful POST & GET call
   * soap_test.html
   
 # Demo.jsp
-It contains a buttom customer details which by on click shows up the bootstrap data tables based on the java script function in datatable.js (involves datables editor libraries).
+The "Customer Details" button returns bootstrap data tables based on the JavaScript function in datatabl.js (involves datables editor libraries).
 
 # Datatabl.js
-It has all the ajax calls for GET PUT DELETE and POST to Panther servlet based on the button clicks for each REST call method.
+Contains AJAXcalls for GET, PUT, DELETE and POST to the Panther servlet based on the button clicks for each REST call method.
 
 # soap_test
-This is the Panther client screen that has the JPL code which calls a java class named as "Json Utils", also managing the REST calls and perform there respective operation.
+Panther client screen containing JPL code which callsthe Java class called "Json Utils". It also managers  the REST calls and performs their respective operations.
 
 # soap_test.html
-This has raw mlt which helps in sending back the json response to the client
+This has raw Multi Line Text field which returns the JSON formatted response  back to the client.
 
 Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of the demo.
 
