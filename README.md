@@ -13,7 +13,10 @@ This repository contains sample source  on how to make a RESTful POST & GET call
   * editabl.js
   
 # Demo.jsp
-JSP page containing html content for a pushbutton and the other files are a reference to this document.
+It contains a buttom customer details which by on click shows up the bootstrap data tables based on the java script function in datatable.js (involves datables editor libraries).
+
+# Datatabl.js
+It has all the ajax calls for GET PUT DELETE and POST to Panther servlet based on the button clicks for each REST call method.
 
 Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of the demo.
 
