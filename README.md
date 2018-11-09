@@ -31,5 +31,3 @@ Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of
 Need a Panther Web 551 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/panther/)
 
 Contact support@prolifics.com for a 45 day license included.
-
-For further queries: support@prolifics.com
