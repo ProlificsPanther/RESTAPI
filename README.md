@@ -1,8 +1,8 @@
-# RESTFUL-API
+# RestfulAPI
 This repository contains sample source  on how to make a RESTful POST & GET calls from a Panther Web application. Data is returned to a JSP in JSON format
 
-# Pre-Requisite:
-  * Panther Web Application
+# Prerequisite:
+  * Panther Web Application/ Panther 5.5*
   * Apache Web Server
 
 # Contents of the demo:
@@ -30,4 +30,6 @@ Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of
 
 Need a Panther Web 551 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther)
 
-Contact support@prolifics.com for a 45 day license included.
+Contact support@prolifics.com for a 45 day license.
+
+How to setup a Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases)
