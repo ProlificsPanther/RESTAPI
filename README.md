@@ -2,7 +2,7 @@
 Data is returned to a JSP in JSON format
 
 # Prerequisite:
-  * Panther Web Application/ Panther 5.5*
+  * Panther Web Application/Panther 5.5*
   * Apache Web Server
 
 # Contents of the demo:
