@@ -1,5 +1,5 @@
 # RestfulAPI
-This repository contains sample source  on how to make a RESTful POST & GET calls from a Panther Web application. Data is returned to a JSP in JSON format
+Data is returned to a JSP in JSON format
 
 # Prerequisite:
   * Panther Web Application/ Panther 5.5*
