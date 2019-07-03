@@ -1,5 +1,5 @@
 # RestfulAPI
-Data is returned to a JSP in JSON format
+Data is returned in JSON format into a JSP
 
 # Prerequisite:
   * Panther Web Application/Panther 5.5*
