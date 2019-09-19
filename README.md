@@ -21,7 +21,7 @@ This is a JSP that contains a"Customer Details" button. When this button in clic
 Contains AJAX calls for GET, PUT, DELETE and POST to the Panther servlet based on the button clicks for each REST call method.
 
 # soap_test
-Panther client screen containing JPL code which calls the Java class  "JsonUtils". It also managers the REST calls and performs their respective operations.
+Panther client screen containing JPL code which calls the Java class  "JsonUtils" (You can find this Java class and the required external jars with Panther552/samples/auth0/jsonUtils). It also manages the REST calls and performs their respective operations.
 
 # soap_test.html
 Contains raw Multi Line Text field which returns the JSON formatted response  back to the client.
