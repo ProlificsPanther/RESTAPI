@@ -1,5 +1,5 @@
 # RestfulAPI
-Panther screens data is returned in a JSON format using which a data table is created.
+Panther screens data is returned in a JSON format by which a data table is created.
 
 # Prerequisite:
   * Panther Web Application/Panther 5.5*
@@ -17,13 +17,13 @@ Panther screens data is returned in a JSON format using which a data table is cr
   * connect.jpl (SMINIT)
   
 # Demo.jsp
-This JSP file contains a "Customer Details" button, When clicked returns a bootstrap data table based on the JavaScript function in datatabl.js.  
+This JSP file contains a "Customer Details" button, When clicked, it returns a bootstrap data table based on the JavaScript function in datatabl.js.  
 
 # Datatabl.js
-Contains AJAX calls for GET, PUT, DELETE and POST to the Panther servlet.
+Contains AJAX calls for GET, PUT, DELETE and POST to the Panther web application.
 
 # dataTables.editor.js & dataTables.editor.min.js
-The latest files can be downloaded from the link (https://editor.datatables.net/download/) you need to have these for the dataTable actions.
+The latest files can be downloaded from the link (https://editor.datatables.net/download/) you need to have these for the dataTable actions. The trail version which you will get will expire in 15 days.
 
 # editable.css
 CSS for dataTables
@@ -35,10 +35,10 @@ Panther client screen containing JPL code which calls the Java class  "JsonUtils
 Contains a raw Multi Line Text field tag, which has the JSON formatted data.
 
 # videobiz
-This database comes with our panther product (/SMBASE/vidstore) , this is used as the working database for CRUD operations.
+This database comes with our panther product (/SMBASE/samples/vidstore) , this is used as the working database for CRUD operations.
 
 # connect.jpl
-This is SMINIT file in your .ini file which has the connection string jpl to your database.
+This is SMINITJPL file in your .ini file which has the connection string jpl to your database.
 
 Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of the demo.
 
