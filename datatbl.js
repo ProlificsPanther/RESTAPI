@@ -8,12 +8,12 @@ function myGridFunc() {var editor
 table.setAttribute('id', 'example');
 document.body.appendChild(table);
 var obj
-//alert("in get");
+
 var request = $
 .ajax({
 	type : 'GET',
 	contentType: "application/json",
-	url : 'http://10.0.10.176:8080/myjson/soap_test/23',
+	url : 'http://localhost:8080/proweb552_32/proweb552_32/restDemo',
 	async : false,
 	dataType : 'json',
 	success : function(data) {
@@ -152,12 +152,12 @@ buttons : [
 					.val(),
 					
 			}
-			//alert("JSONNN"+JSON.stringify(newObj));
+			
 			var request = $
 			.ajax({
 				type : 'POST',
 				contentType: "application/json",
-				url : 'http://10.0.10.176:8080/myjson/soap_test',
+				url : 'http://localhost:8080/proweb552_32/proweb552_32/restDemo',
 				async : false,
 				dataType : 'json',
 				data : JSON.stringify(newObj),
@@ -189,7 +189,22 @@ buttons : [
 			label : 'Update',
 			fn : function() {
 				
-				var url = 'http://10.0.10.176:8080/myjson/soap_test'
+				var table = $(
+				'#example')
+				.DataTable();
+				var tdval = table
+				.rows(
+				{
+					selected : true
+				})
+				.data()
+				var id = tdval[0].cust_id;
+			
+				//fname = tdval[0].First_Name
+
+				var url = 'http://localhost:8080/proweb552_32/proweb552_32/restDemo'+'/'+id;
+				
+				
 					
 				var newObj = {
 						"cust_id" : $(
@@ -220,7 +235,7 @@ buttons : [
 						"#DTE_Field_member_status")
 						.val(),
 				} ;
-				alert(JSON.stringify(newObj));
+				
 				var request = $
 				.ajax({
 					type : 'PUT',
@@ -268,10 +283,8 @@ buttons : [
 						})
 						.data()
 						var id = tdval[0].cust_id;
-					alert(id);
-				fname = tdval[0].First_Name
 
-				var url = 'http://10.0.10.176:8080/myjson/soap_test'+'/'+id;
+				var url = 'http://localhost:8080/proweb552_32/proweb552_32/restDemo'+'/'+id;
 
 				var request = $
 				.ajax({
@@ -314,8 +327,6 @@ buttons : [
 
 function buildGridFunc(data) {
 
-	//*********subhan***************
-	//var data = $("textarea").text();
 	obj = data;
 	var len = Object.keys(obj.members).length;
 	var Gridjsondata = "{";
@@ -359,7 +370,7 @@ function buildGridFunc(data) {
 }
 
 function transpose(obj, exclusions) {
-	//alert("INSIDE TRANSPOSE");
+	
 	var result;
 	var arr;
 	var len = 0;
@@ -381,7 +392,7 @@ function transpose(obj, exclusions) {
 	 */
 	for (i = 0; i < arraynames.length; i++) {
 		arr = obj[arraynames[i]];
-		//alert("ARR"+arr)
+		
 		if (arr != null && arr.length > len) {
 			len = arr.length;
 		}
