@@ -14,7 +14,7 @@ Panther screens data is returned in a JSON format by which a data table is creat
   * customer
   * customer.html
   * videobiz (jdb database)
-  * connect.jpl (SMINIT)
+  * connect.jpl (SMINITJPL)
   
 # Demo.jsp
 This JSP file contains a "Customer Details" button, When clicked, it returns a bootstrap data table based on the JavaScript function in datatabl.js.  
