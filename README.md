@@ -1,46 +1,30 @@
-# RestfulAPI
-Panther screens data is returned in a JSON format by which a data table is created.
+# RESTFromPantherClient
+This repository demonstrates how to  call a  3rd Party REST service from a Panther Desktop Client.
 
-# Prerequisite:
-  * Panther Web Application/Panther 5.5*
-  * Apache Web Server
+Calling a Rest Service from a Panther Desktop Client
 
-# Contents of the demo:
-  * Demo.jsp
-  * datatabl.js
-  * dataTables.editor.js
-  * dataTables.editor.min.js
-  * editable.css
-  * customer
-  * customer.html
-  * videobiz (jdb database)
-  * connect.jpl (SMINITJPL)
+This sample demonstrates how to call a REST Service (workclockapi.com) from a Panther Desktop Client (prodev). This REST service will return the current date/time in JSON format  for any registered time zone.
+
+1.	Extract the contents of the zip file to your Test folder; example C:\Temp
+
+2.	Set the below in your Panther environment; JAVA_HOME, SMJAVALIBRARY & CLASSPATH
+
+    a)	Configure in your prol5w32.ini file
+
+      JAVA_HOME= C:\Program Files\Java\jdk1.8.0_162 (use the latest)
+
+      CLASSPATH=C:\Temp\RestDemo\pro5.jar;C:\Temp\RestDemo\java- json.jar;C:\Temp\RestDemo\Test\bin
   
-# Demo.jsp
-This JSP file contains a "Customer Details" button, When clicked, it returns a bootstrap data table based on the JavaScript function in datatabl.js.  
+     b)	Configure in your smvars, then convert to binary using var2bin utility
 
-# Datatabl.js
-Contains AJAX calls for GET, PUT, DELETE and POST to the Panther web application.
+      SMJAVALIBRARY= C:\Program Files\Java\jdk1.8.0_162\jre\bin\server\jvm.dll
+  
+3. Please create a folder called “logger” (C:\logger) . This file writes requests/responses data to these logs.
 
-# dataTables.editor.js & dataTables.editor.min.js
-The latest files can be downloaded from the link (https://editor.datatables.net/download/) you need to have these for the dataTable actions. The trail version which you will get will expire in 15 days.
+4. The zip file contains a test screen called “timezone”. From your Panther development environment, add the screen to your Panther    library and test it by entering "est" or "pst" in the  top most field, then TAB out of it.
 
-# editable.css
-CSS for dataTables
 
-# customer
-Panther client screen containing JPL code which calls the Java class  "JsonUtils" (You can find this Java class and the required external jars with Panther552/samples/auth0/jsonUtils). It also manages the REST calls and performs their respective operations.
-
-# customer.html
-Contains a raw Multi Line Text field tag, which has the JSON formatted data.
-
-# videobiz
-This database comes with our panther product (/SMBASE/samples/vidstore) , this is used as the working database for CRUD operations.
-
-# connect.jpl
-This is SMINITJPL file in your .ini file which has the connection string jpl to your database.
-
-Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of the demo.
+Video Tutorial: https://www.youtube.com/watch?v=87rFIvrWd6Y
 
 Need a Panther Web 552 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/pantherweb)
 
