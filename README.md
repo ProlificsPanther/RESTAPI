@@ -1,4 +1,4 @@
-# RestfulAPI
+# Web
 Panther screens data is returned in a JSON format by which a data table is created.
 
 # Prerequisite:
