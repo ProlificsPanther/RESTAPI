@@ -1,4 +1,4 @@
-# RESTFromPantherClient
+# ClientServer
 This repository demonstrates how to  call a  3rd Party REST service from a Panther Desktop Client.
 
 Calling a Rest Service from a Panther Desktop Client
