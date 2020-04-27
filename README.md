@@ -1,9 +1,9 @@
 # ClientServer
-This repository demonstrates how to  call a  3rd Party REST service from a Panther Desktop Client.
+This repository demonstrates how to call a  3rd Party REST service from a Panther Desktop Client.
 
 Calling a Rest Service from a Panther Desktop Client
 
-This sample demonstrates how to call a REST Service (workclockapi.com) from a Panther Desktop Client (prodev). This REST service will return the current date/time in JSON format  for any registered time zone.
+This sample demonstrates how to call a REST Service (workclockapi.com) from a Panther Desktop Client (prodev). This REST service will return the current date/time in JSON format for any registered time zone.
 
 1.	Extract the contents of the zip file to your Test folder; example C:\Temp
 
@@ -19,15 +19,15 @@ This sample demonstrates how to call a REST Service (workclockapi.com) from a Pa
 
       SMJAVALIBRARY= C:\Program Files\Java\jdk1.8.0_162\jre\bin\server\jvm.dll
   
-3. Please create a folder called “logger” (C:\logger) . This file writes requests/responses data to these logs.
+3. Please create a folder called “logger” (C:\logger). This file writes requests/responses data to these logs.
 
-4. The zip file contains a test screen called “timezone”. From your Panther development environment, add the screen to your Panther    library and test it by entering "est" or "pst" in the  top most field, then TAB out of it.
+4. The zip file contains a test screen called “timezone”. From your Panther development environment, add the screen to your Panther library and test it by entering "est" or "pst" in the topmost field, then TAB out of it.
 
 
 Video Tutorial: https://www.youtube.com/watch?v=87rFIvrWd6Y
 
 Need a Panther Web 552 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/pantherweb)
 
-[Click Here](https://www.prolifics.com/panther-trial-license-request) for a 45 day license.
+[Click Here](https://www.prolifics.com/panther-trial-license-request) for a 45-day license.
 
-How to setup a Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases)
+How to set up a Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases)
