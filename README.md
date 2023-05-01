@@ -26,8 +26,6 @@ This sample demonstrates how to call a REST Service (workclockapi.com) from a Pa
 
 Video Tutorial: https://www.youtube.com/watch?v=87rFIvrWd6Y
 
-Need a Panther Web 552 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/pantherweb "Named link title") 
-
 How to set up a Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases "Named link title")
 
 Read our Documentation [here](https://docs.prolifics.com)
