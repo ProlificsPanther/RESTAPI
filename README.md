@@ -1,14 +1,18 @@
 # ClientServer
-This repository demonstrates how to call a  3rd Party REST service from a Panther Desktop Client.
-Thee are 3 samples here.
+This repository demonstrates2 ways to invoke a Web Service from  your Panther Desktop Client. The Web Service used is http://worldtimeapi.org/
+This Video demostrates the usage using  both methods, https://www.youtube.com/watch?v=87rFIvrWd6Y
 
-HelloWorldSample.zip -
-RestDemo.zip - Call  a  WorldClockTime.com Rest Service using  our Panther Java Handler. Best for JPL/JAVA developers
-Rest_Get.zip -  Call  a  WorldClockTime.com Rest Service using  our Panther Java Object Call.  Best for JAVA developers
+Method 1:
+Java Handler, Call the Web Service using the Java Tag property; Write your own Java Class
+Download RestJavaHandler.zip . Please read readme.txt file.
 
-Download and read the Readme.docx files for each demo.
+
+
+Method 2:
+Java Object,  Call the Web Service  from JPL, using Panthers' built in  Java wrapper functions
+Download RestJavaObject.zip . Please read readme.txt file
  
 
-Video Tutorial: https://www.youtube.com/watch?v=87rFIvrWd6Y
+ 
 
  
