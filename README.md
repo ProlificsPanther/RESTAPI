@@ -1,5 +1,5 @@
 # Web
-Panther screens data is returned in a JSON format by which a data table is created.
+Panther screen is populated with JSON  data from a Web Service.
 
 # Prerequisite:
   * Panther Web Application/Panther 5.5*
@@ -42,6 +42,4 @@ This is SMINITJPL file in your .ini file which has the connection string jpl to 
 
 Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of the demo.
 
-Need a Panther Web 552 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/pantherweb)
-
-How to setup a Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases)
+How to configure your Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases)
