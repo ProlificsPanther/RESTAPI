@@ -16,3 +16,5 @@ Download RestJavaObject.zip . Please read readme.txt file
  
 
  
+[ReadmeJavaHandler.docx](https://github.com/ProlificsPanther/RESTAPI/files/11441835/ReadmeJavaHandler.docx)
+[JavaHandler.zip](https://github.com/ProlificsPanther/RESTAPI/files/11441840/JavaHandler.zip)
