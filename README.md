@@ -1,6 +1,6 @@
 # RestAPI
-See how data from a JSON object is populated into Panther screens.
-Switch branches to access the Client/Server and the Web Sample.
+Invoke a REST Web Service and  populated  the JSON data into Panther  widgets
+Switch between branches to access Client/Server and the Web samples.
  
 ![](REST.png)
 
