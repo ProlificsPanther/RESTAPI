@@ -1,5 +1,5 @@
 # ClientServer
-This repository contains  2 sample demos  on how to invoke a Web Service from  your Panther Desktop Client. The Web Service used is http://worldtimeapi.org/
+Two sample demos  on how to invoke a Web Service from  your Panther Desktop Client. The Web Service used is http://worldtimeapi.org/
 This Video demostrates the usage using  both methods, https://www.youtube.com/watch?v=87rFIvrWd6Y
 
 Method 1:
