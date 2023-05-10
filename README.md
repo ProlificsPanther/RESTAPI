@@ -4,13 +4,13 @@ This Video demostrates the usage using  both methods, [https://www.youtube.com/w
 
 Method 1:
 Java Handler, Call the Web Service using the Java Tag property; Write your own Java Class
-Download RestJavaHandler.zip . Please read ReadmeJavaHandler.txt  for instructions.
+Download JavaHandler.zip . Please read ReadmeJavaHandler.docx  for instructions.
 
 
 
 Method 2:
 Java Object,  Call the Web Service  from JPL, using Panthers' built in  Java wrapper functions
-Download RestJavaObject.zip . Please read ReadmeJavaObject.txt file
+Download JavaObject.zip . Please read ReadmeJavaObject.docx file
  
 
  
