@@ -6,7 +6,7 @@ Panther screen is populated with JSON  data from a Web Service.
   * Apache Web Server
 
 # Contents of the demo:
-  * Demo.jsp
+  * demo.jsp
   * datatabl.js
   * dataTables.editor.js
   * dataTables.editor.min.js
