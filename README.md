@@ -6,7 +6,7 @@ Panther Web App making RESTful requests.
   * Apache Web Server
 
 # Contents of the demo:
-  * demo.jsp -    Customer Details" button is clicked on, a Bootstrap datatable is returned (JS function in datatabl.js).
+  * demo.jsp -     Data is returned  to the bootstrap datatable.
   * datatabl.js - AJAX calls for GET, PUT, DELETE and POST to the Panther web application.
   * dataTables.editor.js , dataTables.editor.min.js  -The latest files can be downloaded from the link (https://editor.datatables.net/download/) 
     you need to have these for the datatable actions, using the 15 day trial version.  
