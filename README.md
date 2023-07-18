@@ -15,7 +15,9 @@ Panther screen is populated with JSON  data from a Web Service.
   * customer.html
   * videobiz (jdb database)
   * connect.jpl (SMINITJPL)
-  
+
+#Video Tutorial
+https://www.youtube.com/watch?v=l_tvjs7N83w contains details of the demo
 # Demo.jsp
 This JSP file contains a "Customer Details" button, When clicked on, a Bootstrap data table  is returned (JS function in datatabl.js.)
 
