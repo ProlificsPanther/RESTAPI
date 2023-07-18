@@ -17,7 +17,7 @@ Panther screen is populated with JSON  data from a Web Service.
   * connect.jpl (SMINITJPL)
   
 # Demo.jsp
-This JSP file contains a "Customer Details" button, When clicked, it returns a bootstrap data table based on the JavaScript function in datatabl.js.  
+This JSP file contains a "Customer Details" button, When clicked on, a Bootstrap data table  is returned (JS function in datatabl.js.)
 
 # Datatabl.js
 Contains AJAX calls for GET, PUT, DELETE and POST to the Panther web application.
