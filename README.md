@@ -41,8 +41,6 @@ Contains a raw Multi Line Text field tag, which has the JSON formatted data.
 This database comes with our panther product (/SMBASE/samples/vidstore) , this is used as the working database for CRUD operations.
 
 # connect.jpl
-This is SMINITJPL file in your .ini file which has the connection string jpl to your database.
-
-Video Tutorial: https://www.youtube.com/watch?v=l_tvjs7N83w  contains details of the demo.
+SMINITJPL (set in ini file) points to connect.jpl which contains connection string to your database.
 
 How to configure your Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases)
