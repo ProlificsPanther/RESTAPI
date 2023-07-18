@@ -1,5 +1,5 @@
 # Web
-Panther screen is populated with JSON data from a Web Service.
+Panther Web App making RESTful requests.
 
 # Prerequisite:
   * Panther Web Application/Panther 5.5*
