@@ -6,7 +6,7 @@ Panther screen is populated with JSON data from a Web Service.
   * Apache Web Server
 
 # Contents of the demo:
-  * demo.jsp -    Customer Details" button is clicked on, a Bootstrap datatable is returned (JS function in datatabl.js.
+  * demo.jsp -    Customer Details" button is clicked on, a Bootstrap datatable is returned (JS function in datatabl.js).
   * datatabl.js - AJAX calls for GET, PUT, DELETE and POST to the Panther web application.
   * dataTables.editor.js , dataTables.editor.min.js  -The latest files can be downloaded from the link (https://editor.datatables.net/download/) 
     you need to have these for the datatable actions, using the 15 day trial version.  
@@ -18,6 +18,6 @@ Panther screen is populated with JSON data from a Web Service.
   * connect.jpl - Assign SMINITJPL to  connect.jpl in  the ini file. It contains information to connect to the database.
 
 # Video Tutorial
-https://www.youtube.com/watch?v=l_tvjs7N83w contains details of the demo
+   * https://www.youtube.com/watch?v=l_tvjs7N83w contains details of the demo
 
 How to configure your Panther Servlet Web Application? [Click Here](https://github.com/ProlificsPanther/PantherWeb/releases)
