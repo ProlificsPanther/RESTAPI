@@ -1,5 +1,5 @@
 # RestAPI
-Invoke a REST Web Service and  populated  the JSON data into a Panther screen/widgets
+Invoke a REST Web Service and  populated  the JSON data into a Panther screen or widgets. 
 Switch between branches to access Client/Server and the Web samples.
  
 ![](REST.png)
